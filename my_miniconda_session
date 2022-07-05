@@ -1,0 +1,406 @@
+Script started on 2022-07-05 19:27:33+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="168" LINES="43"]
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ [K(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ conda c[K
+usage: conda [-h] [-V] command ...
+
+conda is a tool for managing and deploying applications, environments and packages.
+
+Options:
+
+positional arguments:
+  command
+    clean        Remove unused packages and caches.
+    compare      Compare packages between conda environments.
+    config       Modify configuration values in .condarc. This is modeled after
+                 the git config command. Writes to the user .condarc file
+                 (/home/pramodh-venkat/.condarc) by default.
+    create       Create a new conda environment from a list of specified
+                 packages.
+    help         Displays a list of available conda commands and their help
+                 strings.
+    info         Display information about current conda install.
+    init         Initialize conda for shell interaction. [Experimental]
+    install      Installs a list of packages into a specified conda environment.
+    list         List linked packages in a conda environment.
+    package      Low-level conda package utility. (EXPERIMENTAL)
+    remove       Remove a list of packages from a specified conda environment.
+    uninstall    Alias for conda remove.
+    run          Run an executable in a conda environment.
+    search       Search for packages and display associated information. The
+                 input is a MatchSpec, a query language for conda packages. See
+                 examples below.
+    update       Updates conda packages to the latest compatible version.
+    upgrade      Alias for conda update.
+
+optional arguments:
+  -h, --help     Show this help message and exit.
+  -V, --version  Show the conda version number and exit.
+
+conda commands available from other packages:
+  content-trust
+  env
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ conda --version
+conda 4.12.0
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ conda create --name sniow[K[K[Kowflaks[Kesk[K biopython
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / done
+Solving environment: \ | / - \ done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.12.0
+  latest version: 4.13.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/pramodh-venkat/miniconda3/envs/snowflakes
+
+  added / updated specs:
+    - biopython
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _openmp_mutex-5.1          |            1_gnu          21 KB
+    biopython-1.78             |  py310h7f8727e_0         2.4 MB
+    blas-1.0                   |              mkl           6 KB
+    bzip2-1.0.8                |       h7b6447c_0          78 KB
+    ca-certificates-2022.4.26  |       h06a4308_0         124 KB
+    certifi-2022.6.15          |  py310h06a4308_0         153 KB
+    intel-openmp-2021.4.0      |    h06a4308_3561         4.2 MB
+    ld_impl_linux-64-2.38      |       h1181459_1         654 KB
+    libgcc-ng-11.2.0           |       h1234567_1         5.3 MB
+    libgomp-11.2.0             |       h1234567_1         474 KB
+    libstdcxx-ng-11.2.0        |       h1234567_1         4.7 MB
+    libuuid-1.0.3              |       h7f8727e_2          17 KB
+    mkl-2021.4.0               |     h06a4308_640       142.6 MB
+    mkl-service-2.4.0          |  py310h7f8727e_0         177 KB
+    mkl_fft-1.3.1              |  py310hd6ae3a3_0         567 KB
+    mkl_random-1.2.2           |  py310h00e6091_0        1009 KB
+    ncurses-6.3                |       h5eee18b_3         781 KB
+    numpy-1.22.3               |  py310hfa59a62_0          10 KB
+    numpy-base-1.22.3          |  py310h9585f30_0        11.8 MB
+    openssl-1.1.1p             |       h5eee18b_0         2.5 MB
+    pip-21.2.4                 |  py310h06a4308_0         1.8 MB
+    python-3.10.4              |       h12debd9_0        24.2 MB
+    setuptools-61.2.0          |  py310h06a4308_0        1019 KB
+    sqlite-3.38.5              |       hc218d9a_0         1.0 MB
+    tk-8.6.12                  |       h1ccaba5_0         3.0 MB
+    xz-5.2.5                   |       h7f8727e_1         339 KB
+    zlib-1.2.12                |       h7f8727e_2         106 KB
+    ------------------------------------------------------------
+                                           Total:       208.9 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu
+  biopython          pkgs/main/linux-64::biopython-1.78-py310h7f8727e_0
+  blas               pkgs/main/linux-64::blas-1.0-mkl
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h7b6447c_0
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2022.4.26-h06a4308_0
+  certifi            pkgs/main/linux-64::certifi-2022.6.15-py310h06a4308_0
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2021.4.0-h06a4308_3561
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1
+  libuuid            pkgs/main/linux-64::libuuid-1.0.3-h7f8727e_2
+  mkl                pkgs/main/linux-64::mkl-2021.4.0-h06a4308_640
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py310h7f8727e_0
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.1-py310hd6ae3a3_0
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.2-py310h00e6091_0
+  ncurses            pkgs/main/linux-64::ncurses-6.3-h5eee18b_3
+  numpy              pkgs/main/linux-64::numpy-1.22.3-py310hfa59a62_0
+  numpy-base         pkgs/main/linux-64::numpy-base-1.22.3-py310h9585f30_0
+  openssl            pkgs/main/linux-64::openssl-1.1.1p-h5eee18b_0
+  pip                pkgs/main/linux-64::pip-21.2.4-py310h06a4308_0
+  python             pkgs/main/linux-64::python-3.10.4-h12debd9_0
+  readline           pkgs/main/linux-64::readline-8.1.2-h7f8727e_1
+  setuptools         pkgs/main/linux-64::setuptools-61.2.0-py310h06a4308_0
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1
+  sqlite             pkgs/main/linux-64::sqlite-3.38.5-hc218d9a_0
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0
+  tzdata             pkgs/main/noarch::tzdata-2022a-hda174b7_0
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
+  xz                 pkgs/main/linux-64::xz-5.2.5-h7f8727e_1
+  zlib               pkgs/main/linux-64::zlib-1.2.12-h7f8727e_2
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+setuptools-61.2.0    | 1019 KB   |                                          |   0% setuptools-61.2.0    | 1019 KB   | #######5                                 |  19% setuptools-61.2.0    | 1019 KB   | ######################################## | 100% setuptools-61.2.0    | 1019 KB   | ######################################## | 100% 
+openssl-1.1.1p       | 2.5 MB    |                                          |   0% openssl-1.1.1p       | 2.5 MB    | ############4                            |  31% openssl-1.1.1p       | 2.5 MB    | ############################6            |  72% openssl-1.1.1p       | 2.5 MB    | ######################################## | 100% 
+numpy-base-1.22.3    | 11.8 MB   |                                          |   0% numpy-base-1.22.3    | 11.8 MB   | ###                                      |   8% numpy-base-1.22.3    | 11.8 MB   | ######3                                  |  16% numpy-base-1.22.3    | 11.8 MB   | ##########1                              |  25% numpy-base-1.22.3    | 11.8 MB   | ##############                           |  35% numpy-base-1.22.3    | 11.8 MB   | #################6                       |  44% numpy-base-1.22.3    | 11.8 MB   | #####################4                   |  54% numpy-base-1.22.3    | 11.8 MB   | #########################                |  63% numpy-base-1.22.3    | 11.8 MB   | ############################6            |  72% numpy-base-1.22.3    | 11.8 MB   | ################################1        |  80% numpy-base-1.22.3    | 11.8 MB   | ####################################1    |  90% numpy-base-1.22.3    | 11.8 MB   | #######################################8 | 100% numpy-base-1.22.3    | 11.8 MB   | ######################################## | 100% 
+libgomp-11.2.0       | 474 KB    |                                          |   0% libgomp-11.2.0       | 474 KB    | ######################################## | 100% 
+intel-openmp-2021.4. | 4.2 MB    |                                          |   0% intel-openmp-2021.4. | 4.2 MB    | #######2                                 |  18% intel-openmp-2021.4. | 4.2 MB    | #################1                       |  43% intel-openmp-2021.4. | 4.2 MB    | ##########################2              |  66% intel-openmp-2021.4. | 4.2 MB    | #####################################    |  93% intel-openmp-2021.4. | 4.2 MB    | ######################################## | 100% 
+biopython-1.78       | 2.4 MB    |                                          |   0% biopython-1.78       | 2.4 MB    | ##############2                          |  36% biopython-1.78       | 2.4 MB    | ##################################       |  85% biopython-1.78       | 2.4 MB    | ######################################## | 100% 
+python-3.10.4        | 24.2 MB   |                                          |   0% python-3.10.4        | 24.2 MB   | #3                                       |   3% python-3.10.4        | 24.2 MB   | ##8                                      |   7% python-3.10.4        | 24.2 MB   | ####8                                    |  12% python-3.10.4        | 24.2 MB   | ######6                                  |  17% python-3.10.4        | 24.2 MB   | ########4                                |  21% python-3.10.4        | 24.2 MB   | ##########                               |  25% python-3.10.4        | 24.2 MB   | ###########8                             |  30% python-3.10.4        | 24.2 MB   | #############5                           |  34% python-3.10.4        | 24.2 MB   | ###############2                         |  38% python-3.10.4        | 24.2 MB   | #################2                       |  43% python-3.10.4        | 24.2 MB   | ###################1                     |  48% python-3.10.4        | 24.2 MB   | ####################9                    |  52% python-3.10.4        | 24.2 MB   | ######################7                  |  57% python-3.10.4        | 24.2 MB   | ########################5                |  61% python-3.10.4        | 24.2 MB   | ##########################4              |  66% python-3.10.4        | 24.2 MB   | ############################2            |  71% python-3.10.4        | 24.2 MB   | ##############################2          |  76% python-3.10.4        | 24.2 MB   | ################################3        |  81% python-3.10.4        | 24.2 MB   | ##################################1      |  85% python-3.10.4        | 24.2 MB   | ####################################     |  90% python-3.10.4        | 24.2 MB   | #####################################8   |  95% python-3.10.4        | 24.2 MB   | #######################################8 | 100% python-3.10.4        | 24.2 MB   | ######################################## | 100% 
+libgcc-ng-11.2.0     | 5.3 MB    |                                          |   0% libgcc-ng-11.2.0     | 5.3 MB    | ######                                   |  15% libgcc-ng-11.2.0     | 5.3 MB    | ##############3                          |  36% libgcc-ng-11.2.0     | 5.3 MB    | #####################7                   |  54% libgcc-ng-11.2.0     | 5.3 MB    | ############################8            |  72% libgcc-ng-11.2.0     | 5.3 MB    | #####################################    |  93% libgcc-ng-11.2.0     | 5.3 MB    | ######################################## | 100% 
+tk-8.6.12            | 3.0 MB    |                                          |   0% tk-8.6.12            | 3.0 MB    | ###########7                             |  29% tk-8.6.12            | 3.0 MB    | ###########################2             |  68% tk-8.6.12            | 3.0 MB    | ######################################## | 100% 
+ncurses-6.3          | 781 KB    |                                          |   0% ncurses-6.3          | 781 KB    | ######################################## | 100% ncurses-6.3          | 781 KB    | ######################################## | 100% 
+mkl_random-1.2.2     | 1009 KB   |                                          |   0% mkl_random-1.2.2     | 1009 KB   | ##################################2      |  86% mkl_random-1.2.2     | 1009 KB   | ######################################## | 100% 
+pip-21.2.4           | 1.8 MB    |                                          |   0% pip-21.2.4           | 1.8 MB    | ###################4                     |  49% pip-21.2.4           | 1.8 MB    | ######################################## | 100% pip-21.2.4           | 1.8 MB    | ######################################## | 100% 
+mkl_fft-1.3.1        | 567 KB    |                                          |   0% mkl_fft-1.3.1        | 567 KB    | ######################################## | 100% mkl_fft-1.3.1        | 567 KB    | ######################################## | 100% 
+zlib-1.2.12          | 106 KB    |                                          |   0% zlib-1.2.12          | 106 KB    | ######################################## | 100% 
+certifi-2022.6.15    | 153 KB    |                                          |   0% certifi-2022.6.15    | 153 KB    | ######################################## | 100% 
+numpy-1.22.3         | 10 KB     |                                          |   0% numpy-1.22.3         | 10 KB     | ######################################## | 100% 
+sqlite-3.38.5        | 1.0 MB    |                                          |   0% sqlite-3.38.5        | 1.0 MB    | ###################################2     |  88% sqlite-3.38.5        | 1.0 MB    | ######################################## | 100% 
+bzip2-1.0.8          | 78 KB     |                                          |   0% bzip2-1.0.8          | 78 KB     | ######################################## | 100% 
+ca-certificates-2022 | 124 KB    |                                          |   0% ca-certificates-2022 | 124 KB    | ######################################## | 100% 
+libuuid-1.0.3        | 17 KB     |                                          |   0% libuuid-1.0.3        | 17 KB     | ######################################## | 100% 
+_openmp_mutex-5.1    | 21 KB     |                                          |   0% _openmp_mutex-5.1    | 21 KB     | ######################################## | 100% 
+mkl-service-2.4.0    | 177 KB    |                                          |   0% mkl-service-2.4.0    | 177 KB    | ######################################## | 100% 
+mkl-2021.4.0         | 142.6 MB  |                                          |   0% mkl-2021.4.0         | 142.6 MB  | 2                                        |   1% mkl-2021.4.0         | 142.6 MB  | 5                                        |   1% mkl-2021.4.0         | 142.6 MB  | 9                                        |   2% mkl-2021.4.0         | 142.6 MB  | #2                                       |   3% mkl-2021.4.0         | 142.6 MB  | #5                                       |   4% mkl-2021.4.0         | 142.6 MB  | #8                                       |   5% mkl-2021.4.0         | 142.6 MB  | ##1                                      |   5% mkl-2021.4.0         | 142.6 MB  | ##4                                      |   6% mkl-2021.4.0         | 142.6 MB  | ##7                                      |   7% mkl-2021.4.0         | 142.6 MB  | ###1                                     |   8% mkl-2021.4.0         | 142.6 MB  | ###4                                     |   9% mkl-2021.4.0         | 142.6 MB  | ###7                                     |   9% mkl-2021.4.0         | 142.6 MB  | ####                                     |  10% mkl-2021.4.0         | 142.6 MB  | ####3                                    |  11% mkl-2021.4.0         | 142.6 MB  | ####6                                    |  12% mkl-2021.4.0         | 142.6 MB  | ####9                                    |  12% mkl-2021.4.0         | 142.6 MB  | #####2                                   |  13% mkl-2021.4.0         | 142.6 MB  | #####5                                   |  14% mkl-2021.4.0         | 142.6 MB  | #####9                                   |  15% mkl-2021.4.0         | 142.6 MB  | ######2                                  |  16% mkl-2021.4.0         | 142.6 MB  | ######5                                  |  16% mkl-2021.4.0         | 142.6 MB  | ######8                                  |  17% mkl-2021.4.0         | 142.6 MB  | #######1                                 |  18% mkl-2021.4.0         | 142.6 MB  | #######4                                 |  19% mkl-2021.4.0         | 142.6 MB  | #######8                                 |  20% mkl-2021.4.0         | 142.6 MB  | ########1                                |  20% mkl-2021.4.0         | 142.6 MB  | ########4                                |  21% mkl-2021.4.0         | 142.6 MB  | ########8                                |  22% mkl-2021.4.0         | 142.6 MB  | #########1                               |  23% mkl-2021.4.0         | 142.6 MB  | #########4                               |  24% mkl-2021.4.0         | 142.6 MB  | #########7                               |  24% mkl-2021.4.0         | 142.6 MB  | ##########                               |  25% mkl-2021.4.0         | 142.6 MB  | ##########3                              |  26% mkl-2021.4.0         | 142.6 MB  | ##########7                              |  27% mkl-2021.4.0         | 142.6 MB  | ###########                              |  28% mkl-2021.4.0         | 142.6 MB  | ###########3                             |  28% mkl-2021.4.0         | 142.6 MB  | ###########6                             |  29% mkl-2021.4.0         | 142.6 MB  | ###########9                             |  30% mkl-2021.4.0         | 142.6 MB  | ############2                            |  31% mkl-2021.4.0         | 142.6 MB  | ############6                            |  32% mkl-2021.4.0         | 142.6 MB  | ############9                            |  32% mkl-2021.4.0         | 142.6 MB  | #############2                           |  33% mkl-2021.4.0         | 142.6 MB  | #############6                           |  34% mkl-2021.4.0         | 142.6 MB  | #############9                           |  35% mkl-2021.4.0         | 142.6 MB  | ##############2                          |  36% mkl-2021.4.0         | 142.6 MB  | ##############5                          |  36% mkl-2021.4.0         | 142.6 MB  | ##############8                          |  37% mkl-2021.4.0         | 142.6 MB  | ###############2                         |  38% mkl-2021.4.0         | 142.6 MB  | ###############5                         |  39% mkl-2021.4.0         | 142.6 MB  | ###############8                         |  40% mkl-2021.4.0         | 142.6 MB  | ################1                        |  40% mkl-2021.4.0         | 142.6 MB  | ################5                        |  41% mkl-2021.4.0         | 142.6 MB  | ################8                        |  42% mkl-2021.4.0         | 142.6 MB  | #################1                       |  43% mkl-2021.4.0         | 142.6 MB  | #################4                       |  44% mkl-2021.4.0         | 142.6 MB  | #################8                       |  45% mkl-2021.4.0         | 142.6 MB  | ##################1                      |  45% mkl-2021.4.0         | 142.6 MB  | ##################4                      |  46% mkl-2021.4.0         | 142.6 MB  | ##################7                      |  47% mkl-2021.4.0         | 142.6 MB  | ###################                      |  48% mkl-2021.4.0         | 142.6 MB  | ###################4                     |  49% mkl-2021.4.0         | 142.6 MB  | ###################7                     |  49% mkl-2021.4.0         | 142.6 MB  | ####################                     |  50% mkl-2021.4.0         | 142.6 MB  | ####################3                    |  51% mkl-2021.4.0         | 142.6 MB  | ####################6                    |  52% mkl-2021.4.0         | 142.6 MB  | ####################9                    |  52% mkl-2021.4.0         | 142.6 MB  | #####################2                   |  53% mkl-2021.4.0         | 142.6 MB  | #####################5                   |  54% mkl-2021.4.0         | 142.6 MB  | #####################8                   |  55% mkl-2021.4.0         | 142.6 MB  | ######################1                  |  55% mkl-2021.4.0         | 142.6 MB  | ######################4                  |  56% mkl-2021.4.0         | 142.6 MB  | ######################7                  |  57% mkl-2021.4.0         | 142.6 MB  | #######################                  |  58% mkl-2021.4.0         | 142.6 MB  | #######################3                 |  58% mkl-2021.4.0         | 142.6 MB  | #######################6                 |  59% mkl-2021.4.0         | 142.6 MB  | #######################9                 |  60% mkl-2021.4.0         | 142.6 MB  | ########################2                |  61% mkl-2021.4.0         | 142.6 MB  | ########################5                |  61% mkl-2021.4.0         | 142.6 MB  | ########################9                |  62% mkl-2021.4.0         | 142.6 MB  | #########################2               |  63% mkl-2021.4.0         | 142.6 MB  | #########################5               |  64% mkl-2021.4.0         | 142.6 MB  | #########################8               |  65% mkl-2021.4.0         | 142.6 MB  | ##########################2              |  66% mkl-2021.4.0         | 142.6 MB  | ##########################5              |  66% mkl-2021.4.0         | 142.6 MB  | ##########################8              |  67% mkl-2021.4.0         | 142.6 MB  | ###########################1             |  68% mkl-2021.4.0         | 142.6 MB  | ###########################4             |  69% mkl-2021.4.0         | 142.6 MB  | ###########################7             |  69% mkl-2021.4.0         | 142.6 MB  | ############################             |  70% mkl-2021.4.0         | 142.6 MB  | ############################3            |  71% mkl-2021.4.0         | 142.6 MB  | ############################6            |  72% mkl-2021.4.0         | 142.6 MB  | ############################9            |  72% mkl-2021.4.0         | 142.6 MB  | #############################2           |  73% mkl-2021.4.0         | 142.6 MB  | #############################5           |  74% mkl-2021.4.0         | 142.6 MB  | #############################8           |  75% mkl-2021.4.0         | 142.6 MB  | ##############################1          |  75% mkl-2021.4.0         | 142.6 MB  | ##############################4          |  76% mkl-2021.4.0         | 142.6 MB  | ##############################7          |  77% mkl-2021.4.0         | 142.6 MB  | ##############################9          |  77% mkl-2021.4.0         | 142.6 MB  | ###############################2         |  78% mkl-2021.4.0         | 142.6 MB  | ###############################5         |  79% mkl-2021.4.0         | 142.6 MB  | ###############################9         |  80% mkl-2021.4.0         | 142.6 MB  | ################################2        |  81% mkl-2021.4.0         | 142.6 MB  | ################################5        |  81% mkl-2021.4.0         | 142.6 MB  | ################################9        |  82% mkl-2021.4.0         | 142.6 MB  | #################################2       |  83% mkl-2021.4.0         | 142.6 MB  | #################################5       |  84% mkl-2021.4.0         | 142.6 MB  | #################################8       |  85% mkl-2021.4.0         | 142.6 MB  | ##################################1      |  85% mkl-2021.4.0         | 142.6 MB  | ##################################4      |  86% mkl-2021.4.0         | 142.6 MB  | ##################################7      |  87% mkl-2021.4.0         | 142.6 MB  | ###################################      |  88% mkl-2021.4.0         | 142.6 MB  | ###################################4     |  89% mkl-2021.4.0         | 142.6 MB  | ###################################7     |  89% mkl-2021.4.0         | 142.6 MB  | ####################################     |  90% mkl-2021.4.0         | 142.6 MB  | ####################################3    |  91% mkl-2021.4.0         | 142.6 MB  | ####################################6    |  92% mkl-2021.4.0         | 142.6 MB  | ####################################9    |  92% mkl-2021.4.0         | 142.6 MB  | #####################################3   |  93% mkl-2021.4.0         | 142.6 MB  | #####################################6   |  94% mkl-2021.4.0         | 142.6 MB  | #####################################9   |  95% mkl-2021.4.0         | 142.6 MB  | ######################################2  |  96% mkl-2021.4.0         | 142.6 MB  | ######################################5  |  96% mkl-2021.4.0         | 142.6 MB  | ######################################9  |  97% mkl-2021.4.0         | 142.6 MB  | #######################################2 |  98% mkl-2021.4.0         | 142.6 MB  | #######################################5 |  99% mkl-2021.4.0         | 142.6 MB  | #######################################8 | 100% mkl-2021.4.0         | 142.6 MB  | ######################################## | 100% 
+libstdcxx-ng-11.2.0  | 4.7 MB    |                                          |   0% libstdcxx-ng-11.2.0  | 4.7 MB    | ####5                                    |  11% libstdcxx-ng-11.2.0  | 4.7 MB    | ############9                            |  32% libstdcxx-ng-11.2.0  | 4.7 MB    | ####################3                    |  51% libstdcxx-ng-11.2.0  | 4.7 MB    | #############################1           |  73% libstdcxx-ng-11.2.0  | 4.7 MB    | #####################################9   |  95% libstdcxx-ng-11.2.0  | 4.7 MB    | ######################################## | 100% 
+ld_impl_linux-64-2.3 | 654 KB    |                                          |   0% ld_impl_linux-64-2.3 | 654 KB    | ######################################## | 100% ld_impl_linux-64-2.3 | 654 KB    | ######################################## | 100% 
+blas-1.0             | 6 KB      |                                          |   0% blas-1.0             | 6 KB      | ######################################## | 100% 
+xz-5.2.5             | 339 KB    |                                          |   0% xz-5.2.5             | 339 KB    | ######################################## | 100% 
+Preparing transaction: / - done
+Verifying transaction: | / - \ | / - \ done
+Executing transaction: / - \ | / - \ | / - \ | / done
+#
+# To activate this environment, use
+#
+#     $ conda activate snowflakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ conda info --envs
+# conda environments:
+#
+base                  *  /home/pramodh-venkat/miniconda3
+snowflakes               /home/pramodh-venkat/miniconda3/envs/snowflakes
+
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ conda create --name snakes python=3.9
+Collecting package metadata (current_repodata.json): - \ | done
+Solving environment: - done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.12.0
+  latest version: 4.13.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/pramodh-venkat/miniconda3/envs/snakes
+
+  added / updated specs:
+    - python=3.9
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2022.6.15          |   py39h06a4308_0         153 KB
+    python-3.9.12              |       h12debd9_1        19.2 MB
+    ------------------------------------------------------------
+                                           Total:        19.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2022.4.26-h06a4308_0
+  certifi            pkgs/main/linux-64::certifi-2022.6.15-py39h06a4308_0
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1
+  ncurses            pkgs/main/linux-64::ncurses-6.3-h5eee18b_3
+  openssl            pkgs/main/linux-64::openssl-1.1.1p-h5eee18b_0
+  pip                pkgs/main/linux-64::pip-21.2.4-py39h06a4308_0
+  python             pkgs/main/linux-64::python-3.9.12-h12debd9_1
+  readline           pkgs/main/linux-64::readline-8.1.2-h7f8727e_1
+  setuptools         pkgs/main/linux-64::setuptools-61.2.0-py39h06a4308_0
+  sqlite             pkgs/main/linux-64::sqlite-3.38.5-hc218d9a_0
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0
+  tzdata             pkgs/main/noarch::tzdata-2022a-hda174b7_0
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
+  xz                 pkgs/main/linux-64::xz-5.2.5-h7f8727e_1
+  zlib               pkgs/main/linux-64::zlib-1.2.12-h7f8727e_2
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+python-3.9.12        | 19.2 MB   |                                          |   0% python-3.9.12        | 19.2 MB   | 4                                        |   1% python-3.9.12        | 19.2 MB   | ##7                                      |   7% python-3.9.12        | 19.2 MB   | ####8                                    |  12% python-3.9.12        | 19.2 MB   | ######8                                  |  17% python-3.9.12        | 19.2 MB   | #########                                |  23% python-3.9.12        | 19.2 MB   | ###########1                             |  28% python-3.9.12        | 19.2 MB   | #############2                           |  33% python-3.9.12        | 19.2 MB   | ###############2                         |  38% python-3.9.12        | 19.2 MB   | #################4                       |  44% python-3.9.12        | 19.2 MB   | ###################4                     |  49% python-3.9.12        | 19.2 MB   | #####################6                   |  54% python-3.9.12        | 19.2 MB   | #######################6                 |  59% python-3.9.12        | 19.2 MB   | ##########################               |  65% python-3.9.12        | 19.2 MB   | ############################2            |  71% python-3.9.12        | 19.2 MB   | ##############################6          |  77% python-3.9.12        | 19.2 MB   | ################################8        |  82% python-3.9.12        | 19.2 MB   | ###################################2     |  88% python-3.9.12        | 19.2 MB   | #####################################6   |  94% python-3.9.12        | 19.2 MB   | #######################################9 | 100% python-3.9.12        | 19.2 MB   | ######################################## | 100% 
+certifi-2022.6.15    | 153 KB    |                                          |   0% certifi-2022.6.15    | 153 KB    | ######################################## | 100% 
+Preparing transaction: | / done
+Verifying transaction: \ | / - \ | / done
+Executing transaction: \ | / - \ | / - \ | / done
+#
+# To activate this environment, use
+#
+#     $ conda activate snakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ conda info --envs 
+# conda environments:
+#
+base                  *  /home/pramodh-venkat/miniconda3
+snakes                   /home/pramodh-venkat/miniconda3/envs/snakes
+snowflakes               /home/pramodh-venkat/miniconda3/envs/snowflakes
+
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ activate snakes
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ source actiba[K[Kvate snalkes[K[K[K[Kkes
+(snakes) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ python --version
+Python 3.9.12
+(snakes) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ source activate base
+bash: C:/Users/pramodh.venkat/Miniconda3/etc/profile.d/conda.sh: No such file or directory
+bash: return: 1: numeric argument required
+(snakes) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ activate base
+bash: /mnt/c/Users/pramodh.venkat/Miniconda3/Scripts/activate: /bin/sh^M: bad interpreter: No such file or directory
+(snakes) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ conda activae[Kte[Ke
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ conda seatch[K[K[Krch [K[K[K[K[K[K[K[K[K[K[K[K[Ksource actiba[K[Kvate snae[Ke[Kkes 
+(snakes) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ cona [K[Kda search a[Kbeautifulsoup4
+Loading channels: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+# Name                       Version           Build  Channel             
+beautifulsoup4                 4.6.0          py27_1  pkgs/main           
+beautifulsoup4                 4.6.0  py27h3f86ba9_1  pkgs/main           
+beautifulsoup4                 4.6.0  py35h442a8c9_1  pkgs/main           
+beautifulsoup4                 4.6.0          py36_1  pkgs/main           
+beautifulsoup4                 4.6.0  py36h49b8c8c_1  pkgs/main           
+beautifulsoup4                 4.6.0          py37_1  pkgs/main           
+beautifulsoup4                 4.6.1          py27_0  pkgs/main           
+beautifulsoup4                 4.6.1          py35_0  pkgs/main           
+beautifulsoup4                 4.6.1          py36_0  pkgs/main           
+beautifulsoup4                 4.6.1          py37_0  pkgs/main           
+beautifulsoup4                 4.6.3          py27_0  pkgs/main           
+beautifulsoup4                 4.6.3          py35_0  pkgs/main           
+beautifulsoup4                 4.6.3          py36_0  pkgs/main           
+beautifulsoup4                 4.6.3          py37_0  pkgs/main           
+beautifulsoup4                 4.7.1          py27_1  pkgs/main           
+beautifulsoup4                 4.7.1          py36_1  pkgs/main           
+beautifulsoup4                 4.7.1          py37_1  pkgs/main           
+beautifulsoup4                 4.8.0          py27_0  pkgs/main           
+beautifulsoup4                 4.8.0          py36_0  pkgs/main           
+beautifulsoup4                 4.8.0          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py27_0  pkgs/main           
+beautifulsoup4                 4.8.1          py36_0  pkgs/main           
+beautifulsoup4                 4.8.1          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py38_0  pkgs/main           
+beautifulsoup4                 4.8.2          py27_0  pkgs/main           
+beautifulsoup4                 4.8.2          py36_0  pkgs/main           
+beautifulsoup4                 4.8.2          py37_0  pkgs/main           
+beautifulsoup4                 4.8.2          py38_0  pkgs/main           
+beautifulsoup4                 4.9.0          py36_0  pkgs/main           
+beautifulsoup4                 4.9.0          py37_0  pkgs/main           
+beautifulsoup4                 4.9.0          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1          py36_0  pkgs/main           
+beautifulsoup4                 4.9.1  py36h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py37_0  pkgs/main           
+beautifulsoup4                 4.9.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1  py39h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyha847dfd_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyhb0f4dca_0  pkgs/main           
+beautifulsoup4                4.10.0    pyh06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py39h06a4308_0  pkgs/main           
+(snakes) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ conda install beautifulsoup4
+Collecting package metadata (current_repodata.json): - \ | done
+Solving environment: - \ done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.12.0
+  latest version: 4.13.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/pramodh-venkat/miniconda3/envs/snakes
+
+  added / updated specs:
+    - beautifulsoup4
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    beautifulsoup4-4.11.1      |   py39h06a4308_0         185 KB
+    soupsieve-2.3.1            |     pyhd3eb1b0_0          34 KB
+    ------------------------------------------------------------
+                                           Total:         219 KB
+
+The following NEW packages will be INSTALLED:
+
+  beautifulsoup4     pkgs/main/linux-64::beautifulsoup4-4.11.1-py39h06a4308_0
+  soupsieve          pkgs/main/noarch::soupsieve-2.3.1-pyhd3eb1b0_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+soupsieve-2.3.1      | 34 KB     |                                          |   0% soupsieve-2.3.1      | 34 KB     | ######################################## | 100% 
+beautifulsoup4-4.11. | 185 KB    |                                          |   0% beautifulsoup4-4.11. | 185 KB    | ######################################## | 100% 
+Preparing transaction: / done
+Verifying transaction: \ done
+Executing transaction: / - \ | / - done
+(snakes) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ ls
+[0m[01;34mminiconda3[0m  my_miniconda_session  my_unix_session  [01;34mmysession[0m  rec  [01;34mtutorial[0m
+(snakes) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ conda list 
+# packages in environment at /home/pramodh-venkat/miniconda3/envs/snakes:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+beautifulsoup4            4.11.1           py39h06a4308_0  
+ca-certificates           2022.4.26            h06a4308_0  
+certifi                   2022.6.15        py39h06a4308_0  
+ld_impl_linux-64          2.38                 h1181459_1  
+libffi                    3.3                  he6710b0_2  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libstdcxx-ng              11.2.0               h1234567_1  
+ncurses                   6.3                  h5eee18b_3  
+openssl                   1.1.1p               h5eee18b_0  
+pip                       21.2.4           py39h06a4308_0  
+python                    3.9.12               h12debd9_1  
+readline                  8.1.2                h7f8727e_1  
+setuptools                61.2.0           py39h06a4308_0  
+soupsieve                 2.3.1              pyhd3eb1b0_0  
+sqlite                    3.38.5               hc218d9a_0  
+tk                        8.6.12               h1ccaba5_0  
+tzdata                    2022a                hda174b7_0  
+wheel                     0.37.1             pyhd3eb1b0_0  
+xz                        5.2.5                h7f8727e_1  
+zlib                      1.2.12               h7f8727e_2  
+(snakes) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-07-05 19:38:44+05:30 [COMMAND_EXIT_CODE="0"]
