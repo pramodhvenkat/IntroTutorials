@@ -1,0 +1,193 @@
+Script started on 2022-07-05 19:41:15+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="168" LINES="43"]
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone             Clone a repository into a new directory
+   init              Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add               Add file contents to the index
+   mv                Move or rename a file, a directory, or a symlink
+   restore           Restore working tree files
+   rm                Remove files from the working tree and from the index
+   sparse-checkout   Initialize and modify the sparse-checkout
+
+examine the history and state (see also: git help revisions)
+   bisect            Use binary search to find the commit that introduced a bug
+   diff              Show changes between commits, commit and working tree, etc
+   grep              Print lines matching a pattern
+   log               Show commit logs
+   show              Show various types of objects
+   status            Show the working tree status
+
+grow, mark and tweak your common history
+   branch            List, create, or delete branches
+   commit            Record changes to the repository
+   merge             Join two or more development histories together
+   rebase            Reapply commits on top of another base tip
+   reset             Reset current HEAD to the specified state
+   switch            Switch branches
+   tag               Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch             Download objects and refs from another repository
+   pull              Fetch from and integrate with another repository or a local branch
+   push              Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ git --version
+git version 2.25.1
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ git clone https://github.com/pramodhvenkat/IntroTutorials.git
+Cloning into 'IntroTutorials'...
+Username for 'https://github.com': pramodhvebnkat     nkat
+Password for 'https://pramodhvenkat@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/pramodhvenkat/IntroTutorials.git/'
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ git clone 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[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K https://github.com/pramodhvenkat/IntroTutorials.git[K[Kit[1Phttps://github.com/pramodhvenkat/IntroTutorials.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Cloning into 'IntroTutorials'...
+Username for 'https://github.com': pramodhvenkat
+Password for 'https://pramodhvenkat@github.com': 
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[K
+remote: Counting objects:  66% (2/3)[K
+remote: Counting objects: 100% (3/3)[K
+remote: Counting objects: 100% (3/3), done.[K
+remote: Compressing objects:  50% (1/2)[K
+remote: Compressing objects: 100% (2/2)[K
+remote: Compressing objects: 100% (2/2), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)
+Unpacking objects:  66% (2/3)
+Unpacking objects: 100% (3/3)
+Unpacking objects: 100% (3/3), 668 bytes | 51.00 KiB/s, done.
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ ls
+[0m[01;34mIntroTutorials[0m  [01;34mminiconda3[0m  my_git_session  my_miniconda_session  my_unix_session  [01;34mmysession[0m  rec  [01;34mtutorial[0m
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ cd ./IntroTutorials/
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ code
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ code IntroTuro[K[Kro[K[Ktorials
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ cd
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ ls
+[0m[01;34mIntroTutorials[0m  [01;34mminiconda3[0m  my_git_session  my_miniconda_session  my_unix_session  [01;34mmysession[0m  rec  [01;34mtutorial[0m
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ cp my_unix_session ./IntroTutorials/
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ cp my_miniconda_session  ./Into[KroTutorials/
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ code ./IntroTutorials/
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ cd ./IntroTutorials/
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ ls
+README.md  my_miniconda_session  my_unix_session
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git add my_miniconda_session 
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git add my_unix_session 
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git commit -m ""M"y" "f"i"r"s"t" "c"o"m"m"i"t" "o"f" "C"o"n"d"a" "a"n"d" "I"[1P"U"n"i"x" "S"e"s"s"i"o"n"s"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <pramodh-venkat@TIGER02683.tigeranalytics.local>) not allowed
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ cd
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ git add
+fatal: not a git repository (or any of the parent directories): .git
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ cd ./IntroTutorials/
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git add ./mi[Ky_miniconda_session 
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git add ./my_unix_session 
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git commit -m "First commit od [K[Kf unix and conda sessions"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <pramodh-venkat@TIGER02683.tigeranalytics.local>) not allowed
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ $[K git config --global user.email "you@example.com"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"p"r"a"m"o"d"h"."v"e"n"k"a"t"@"t"i"g"e"r"a"n"a"l"y"t"i"c"s"."c"o"m"[C
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git config --global user.name "Your Name"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"p"r"a"m"o"d"h"v"e"n"k"a"t"
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git commit -m ""F"i"r"s"t" "c"o"m"m"i"t" "o"f" "[1P"[1P"[1P"[1P"
+[main 2a71736] First commit
+ 2 files changed, 524 insertions(+)
+ create mode 100644 my_miniconda_session
+ create mode 100644 my_unix_session
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git push 
+Username for 'https://github.com': pramid  odhvenkat
+Password for 'https://pramodhvenkat@github.com': 
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)
+Counting objects:  40% (2/5)
+Counting objects:  60% (3/5)
+Counting objects:  80% (4/5)
+Counting objects: 100% (5/5)
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  25% (1/4)
+Compressing objects:  50% (2/4)
+Compressing objects:  75% (3/4)
+Compressing objects: 100% (4/4)
+Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)
+Writing objects:  50% (2/4)
+Writing objects:  75% (3/4)
+Writing objects: 100% (4/4)
+Writing objects: 100% (4/4), 7.99 KiB | 2.66 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/pramodhvenkat/IntroTutorials.git
+   eb87934..2a71736  main -> main
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git status 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ ls
+README.md  my_miniconda_session  my_unix_session
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ cd
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ ls
+[0m[01;34mIntroTutorials[0m  [01;34mminiconda3[0m  my_git_session  my_miniconda_session  my_unix_session  [01;34mmysession[0m  rec  [01;34mtutorial[0m
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ cd ./IntroTutorials/
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ hi[K[Kgit branch[K[K[K[Kanch
+[?1h=
+* [32mmain[m[m
+
+[K[?1l>(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git checkout -b "dev"
+Switched to a new branch 'dev'
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git ba[Kranch 
+[?1h=
+* [32mdev[m[m
+  main[m[m
+
+[K[?1l>(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git checkout dev
+Switched to branch 'dev'
+(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ git branch 
+[?1h=
+* [32mdev[m[m
+  main[m[m
+
+[K[?1l>(base) ]0;pramodh-venkat@TIGER02683: ~/IntroTutorials[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~/IntroTutorials[00m$ cd
+(base) ]0;pramodh-venkat@TIGER02683: ~[01;32mpramodh-venkat@TIGER02683[00m:[01;34m~[00m$ cp [K[K[Kexit
+exit
+
+Script done on 2022-07-05 20:00:17+05:30 [COMMAND_EXIT_CODE="0"]
